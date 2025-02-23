@@ -35,6 +35,15 @@ a {
   opacity: 0.9;
 }
 
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
 .header .btn-sign-up {
   min-width: 144px;
 }
@@ -138,6 +147,7 @@ a {
   top: 393px;
   border-radius: 12px;
   padding: 24px;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
 
 .hero .hero-summary .item {
@@ -199,7 +209,7 @@ a {
   margin-bottom: 28px;
 }
 
-.hero .content-block .desc {
+.desc {
   color: #5f5b53;
   font-size: 1.8rem;
   font-weight: 400;
@@ -269,4 +279,42 @@ a {
 
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
+}
+.popular {
+  padding-top: 65px;
+  margin-top: 135px;
+}
+
+.popular .popular-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular .info .desc {
+  width: 458px;
+  height: 60px;
+  margin-top: 16px;
+}
+
+.popular .control {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.popular .control .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.popular-top .control-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
 }
