@@ -418,3 +418,66 @@ a {
   color: #fff;
   background-color: var(--primary-color);
 }
+
+.feedback {
+  background: #2e2100;
+}
+
+.feedback .feedback-item {
+  display: flex;
+  margin-top: 200px;
+  padding: 96px 0;
+  justify-content: space-between;
+}
+
+.feedback .feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback .feedback-item .member-name {
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4; /* 141.667% */
+  margin-top: 18px;
+}
+
+.feedback .feedback-item .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+  margin-top: 4px;
+}
+
+.feedback .content {
+  width: 63%;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.54; /* 153.846% */
+}
+.feedback .content blockquote {
+  padding-left: 30px;
+}
+
+.feedback .info .dots {
+  display: flex;
+  margin-top: 20px;
+  gap: 6px;
+}
+
+.feedback .feedback-item .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+}
+
+.feedback .feedback-item .dot.active {
+  background-color: #ffb900;
+}
